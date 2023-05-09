@@ -27,6 +27,4 @@ public class TodoAppApplication implements RepositoryRestConfigurer
 	{
 		return new LocalValidatorFactoryBean();
 	}
-
-
 }
