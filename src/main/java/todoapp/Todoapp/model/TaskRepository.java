@@ -8,7 +8,7 @@ import org.springframework.data.rest.core.annotation.RestResource;
 
 import java.util.List;
 
-@RepositoryRestResource(path = "todos", collectionResourceRel = "todos")
+@RepositoryRestResource(path = "tasks", collectionResourceRel = "tasks")
 public interface TaskRepository extends JpaRepository<Task, Integer>
 {
     @Override
